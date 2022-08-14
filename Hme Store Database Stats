@@ -1,0 +1,44 @@
+/** Store
+cups (1)
+spoons (1)
+teapots (1)
+knifes (1)
+fork (1)
+plates (1)
+pots (1)
+kettle (1)
+vase(1)
+candle holder (1)
+water bottles (1)
+blows (1)
+lunch box (1)
+container (1)
+sauce (1)
+**/
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT ,quantity INTEGER ,price numeric ,aisle INTEGER);
+
+INSERT INTO store VALUES (1,"cup",5,2,1);
+INSERT INTO store VALUES (2,"spoon" ,10,1,2);
+INSERT INTO store VALUES (3,"teapot",3,10,4);
+INSERT INTO store VALUES (4,"knife",10,1,1);
+INSERT INTO store VALUES (5, "fork",10,1,1);
+INSERT INTO store VALUES (6, "plate",11,4,2);
+INSERT INTO store VALUES (7, "pot",7,15,4);
+INSERT INTO store VALUES (8,"kettle",1,10,4);
+INSERT INTO store VALUES (9,"vase",6,8,3);
+INSERT INTO store VALUES (10,"candle holder",4,9,3);
+INSERT INTO store VALUES (11,"water bottles",15,6,5);
+INSERT INTO store VALUES (12,"blow",4,3,2);
+INSERT INTO store VALUES (13,"lunch box",6,5,3);
+INSERT INTO store VALUES (14,"container",2,20,3);
+INSERT INTO store VALUES (15,"sauce",8,3,2);
+
+SELECT * from store ORDER BY price;
+SELECT sum (quantity) FROM store;
+
+
+
+
+
+
+
