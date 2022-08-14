@@ -1,2 +1,2 @@
-# SQL
+# github.com/Samubee/SQL
 SQL Portfolio
